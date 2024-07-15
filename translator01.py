@@ -1,6 +1,6 @@
 import os
 import json
-file = open('/home/cybertoad/Documents/Pythonscripts/scryt.html', 'w+')
+file = open('scryt.html', 'w+')
 with open('/home/cybertoad/Documents/Pythonscripts/djubiyar.json') as sl:
 	alf = json.load(sl)
 
