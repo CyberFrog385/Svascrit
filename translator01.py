@@ -1,7 +1,7 @@
 import os
 import json
 file = open('scryt.html', 'w+')
-with open('/home/cybertoad/Documents/Pythonscripts/djubiyar.json') as sl:
+with open('djubiyar.json') as sl:
 	alf = json.load(sl)
 
 print("Welcome to Shvascrit translator!")
